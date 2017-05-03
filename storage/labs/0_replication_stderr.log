@@ -1,0 +1,205 @@
+Wed May  3 15:45:40 AEST 2017
+++ hostname -f
+++ hostname -i
++ echo 'Running on: ip-172-31-10-43 (172.31.10.43)'
+++ dirname /usr/lib64/cmf/service/dr/distcp.sh
++ cloudera_config=/usr/lib64/cmf/service/dr
+++ cd /usr/lib64/cmf/service/dr/../common
+++ pwd
++ cloudera_config=/usr/lib64/cmf/service/common
++ . /usr/lib64/cmf/service/common/cloudera-config.sh
+++ set -x
++ source_parcel_environment
++ '[' '!' -z /opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/meta/cdh_env.sh ']'
++ OLD_IFS=' 	
+'
++ IFS=:
++ SCRIPT_ARRAY=($SCM_DEFINES_SCRIPTS)
++ DIRNAME_ARRAY=($PARCEL_DIRNAMES)
++ IFS=' 	
+'
++ COUNT=1
+++ seq 1 1
++ for i in '`seq 1 $COUNT`'
++ SCRIPT=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/meta/cdh_env.sh
++ PARCEL_DIRNAME=CDH-5.9.2-1.cdh5.9.2.p0.3
++ . /opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/meta/cdh_env.sh
+++ CDH_DIRNAME=CDH-5.9.2-1.cdh5.9.2.p0.3
+++ export CDH_HADOOP_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop
+++ CDH_HADOOP_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop
+++ export CDH_MR1_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-0.20-mapreduce
+++ CDH_MR1_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-0.20-mapreduce
+++ export CDH_HDFS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-hdfs
+++ CDH_HDFS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-hdfs
+++ export CDH_HTTPFS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-httpfs
+++ CDH_HTTPFS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-httpfs
+++ export CDH_MR2_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-mapreduce
+++ CDH_MR2_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-mapreduce
+++ export CDH_YARN_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-yarn
+++ CDH_YARN_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-yarn
+++ export CDH_HBASE_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hbase
+++ CDH_HBASE_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hbase
+++ export CDH_ZOOKEEPER_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/zookeeper
+++ CDH_ZOOKEEPER_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/zookeeper
+++ export CDH_HIVE_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hive
+++ CDH_HIVE_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hive
+++ export CDH_HUE_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hue
+++ CDH_HUE_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hue
+++ export CDH_OOZIE_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/oozie
+++ CDH_OOZIE_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/oozie
+++ export CDH_HUE_PLUGINS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop
+++ CDH_HUE_PLUGINS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop
+++ export CDH_FLUME_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/flume-ng
+++ CDH_FLUME_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/flume-ng
+++ export CDH_PIG_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/pig
+++ CDH_PIG_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/pig
+++ export CDH_HCAT_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hive-hcatalog
+++ CDH_HCAT_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hive-hcatalog
+++ export CDH_SQOOP2_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/sqoop2
+++ CDH_SQOOP2_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/sqoop2
+++ export CDH_LLAMA_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/llama
+++ CDH_LLAMA_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/llama
+++ export CDH_SENTRY_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/sentry
+++ CDH_SENTRY_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/sentry
+++ export TOMCAT_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/bigtop-tomcat
+++ TOMCAT_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/bigtop-tomcat
+++ export JSVC_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/bigtop-utils
+++ JSVC_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/bigtop-utils
+++ export CDH_HADOOP_BIN=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop/bin/hadoop
+++ CDH_HADOOP_BIN=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop/bin/hadoop
+++ export CDH_IMPALA_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/impala
+++ CDH_IMPALA_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/impala
+++ export CDH_SOLR_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/solr
+++ CDH_SOLR_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/solr
+++ export CDH_HBASE_INDEXER_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hbase-solr
+++ CDH_HBASE_INDEXER_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hbase-solr
+++ export SEARCH_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/search
+++ SEARCH_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/search
+++ export CDH_SPARK_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/spark
+++ CDH_SPARK_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/spark
+++ export WEBHCAT_DEFAULT_XML=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/etc/hive-webhcat/conf.dist/webhcat-default.xml
+++ WEBHCAT_DEFAULT_XML=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/etc/hive-webhcat/conf.dist/webhcat-default.xml
+++ export CDH_KMS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-kms
+++ CDH_KMS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-kms
+++ export CDH_PARQUET_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/parquet
+++ CDH_PARQUET_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/parquet
+++ export CDH_AVRO_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/avro
+++ CDH_AVRO_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/avro
++ locate_cdh_java_home
++ '[' -z '' ']'
++ '[' -z /opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/bigtop-utils ']'
++ local BIGTOP_DETECT_JAVAHOME=
++ for candidate in '"${JSVC_HOME}"' '"${JSVC_HOME}/.."' '"/usr/lib/bigtop-utils"' '"/usr/libexec"'
++ '[' -e /opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/bigtop-utils/bigtop-detect-javahome ']'
++ BIGTOP_DETECT_JAVAHOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/bigtop-utils/bigtop-detect-javahome
++ break
++ '[' -z /opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/bigtop-utils/bigtop-detect-javahome ']'
++ . /opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/bigtop-utils/bigtop-detect-javahome
+++ BIGTOP_DEFAULTS_DIR=/etc/default
+++ '[' -n /etc/default -a -r /etc/default/bigtop-utils ']'
+++ JAVA6_HOME_CANDIDATES=('/usr/lib/j2sdk1.6-sun' '/usr/lib/jvm/java-6-sun' '/usr/lib/jvm/java-1.6.0-sun-1.6.0' '/usr/lib/jvm/j2sdk1.6-oracle' '/usr/lib/jvm/j2sdk1.6-oracle/jre' '/usr/java/jdk1.6' '/usr/java/jre1.6')
+++ OPENJAVA6_HOME_CANDIDATES=('/usr/lib/jvm/java-1.6.0-openjdk' '/usr/lib/jvm/jre-1.6.0-openjdk')
+++ JAVA7_HOME_CANDIDATES=('/usr/java/jdk1.7' '/usr/java/jre1.7' '/usr/lib/jvm/j2sdk1.7-oracle' '/usr/lib/jvm/j2sdk1.7-oracle/jre' '/usr/lib/jvm/java-7-oracle')
+++ OPENJAVA7_HOME_CANDIDATES=('/usr/lib/jvm/java-1.7.0-openjdk' '/usr/lib/jvm/java-7-openjdk')
+++ JAVA8_HOME_CANDIDATES=('/usr/java/jdk1.8' '/usr/java/jre1.8' '/usr/lib/jvm/j2sdk1.8-oracle' '/usr/lib/jvm/j2sdk1.8-oracle/jre' '/usr/lib/jvm/java-8-oracle')
+++ OPENJAVA8_HOME_CANDIDATES=('/usr/lib/jvm/java-1.8.0-openjdk' '/usr/lib/jvm/java-8-openjdk')
+++ MISCJAVA_HOME_CANDIDATES=('/Library/Java/Home' '/usr/java/default' '/usr/lib/jvm/default-java' '/usr/lib/jvm/java-openjdk' '/usr/lib/jvm/jre-openjdk')
+++ case ${BIGTOP_JAVA_MAJOR} in
+++ JAVA_HOME_CANDIDATES=(${JAVA7_HOME_CANDIDATES[@]} ${JAVA8_HOME_CANDIDATES[@]} ${MISCJAVA_HOME_CANDIDATES[@]} ${OPENJAVA7_HOME_CANDIDATES[@]} ${OPENJAVA8_HOME_CANDIDATES[@]})
+++ '[' -z '' ']'
+++ for candidate_regex in '${JAVA_HOME_CANDIDATES[@]}'
++++ ls -rvd /usr/java/jdk1.7.0_67-cloudera
+++ for candidate in '`ls -rvd ${candidate_regex}* 2>/dev/null`'
+++ '[' -e /usr/java/jdk1.7.0_67-cloudera/bin/java ']'
+++ export JAVA_HOME=/usr/java/jdk1.7.0_67-cloudera
+++ JAVA_HOME=/usr/java/jdk1.7.0_67-cloudera
+++ break 2
++ verify_java_home
++ '[' -z /usr/java/jdk1.7.0_67-cloudera ']'
++ echo JAVA_HOME=/usr/java/jdk1.7.0_67-cloudera
++ . /usr/lib64/cmf/service/common/cdh-default-hadoop
+++ [[ -z 5 ]]
+++ '[' 5 = 3 ']'
+++ '[' 5 = -3 ']'
+++ '[' 5 -ge 4 ']'
+++ export HADOOP_HOME_WARN_SUPPRESS=true
+++ HADOOP_HOME_WARN_SUPPRESS=true
+++ export HADOOP_PREFIX=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop
+++ HADOOP_PREFIX=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop
+++ export HADOOP_LIBEXEC_DIR=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop/libexec
+++ HADOOP_LIBEXEC_DIR=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop/libexec
+++ export HADOOP_CONF_DIR=/var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07
+++ HADOOP_CONF_DIR=/var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07
+++ export HADOOP_COMMON_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop
+++ HADOOP_COMMON_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop
+++ export HADOOP_HDFS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-hdfs
+++ HADOOP_HDFS_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-hdfs
+++ export HADOOP_MAPRED_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-mapreduce
+++ HADOOP_MAPRED_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-mapreduce
+++ '[' 5 = 4 ']'
+++ '[' 5 = 5 ']'
+++ export HADOOP_YARN_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-yarn
+++ HADOOP_YARN_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-yarn
++ echo 'using /usr/java/jdk1.7.0_67-cloudera as JAVA_HOME'
++ echo 'using 5 as CDH_VERSION'
++ echo 'using /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07 as CONF_DIR'
++ set_hadoop_classpath
++ set_classpath_in_var HADOOP_CLASSPATH
++ '[' -z HADOOP_CLASSPATH ']'
++ [[ -n /usr/share/cmf ]]
+++ find /usr/share/cmf/lib/plugins -maxdepth 1 -name '*.jar'
+++ tr '\n' :
++ ADD_TO_CP=/usr/share/cmf/lib/plugins/tt-instrumentation-5.9.2.jar:/usr/share/cmf/lib/plugins/event-publish-5.9.2-shaded.jar:
++ [[ -n '' ]]
++ eval 'OLD_VALUE=$HADOOP_CLASSPATH'
+++ OLD_VALUE=
++ NEW_VALUE=/usr/share/cmf/lib/plugins/tt-instrumentation-5.9.2.jar:/usr/share/cmf/lib/plugins/event-publish-5.9.2-shaded.jar:
++ export HADOOP_CLASSPATH=/usr/share/cmf/lib/plugins/tt-instrumentation-5.9.2.jar:/usr/share/cmf/lib/plugins/event-publish-5.9.2-shaded.jar
++ HADOOP_CLASSPATH=/usr/share/cmf/lib/plugins/tt-instrumentation-5.9.2.jar:/usr/share/cmf/lib/plugins/event-publish-5.9.2-shaded.jar
++ export 'HADOOP_OPTS=-Djava.net.preferIPv4Stack=true '
++ HADOOP_OPTS='-Djava.net.preferIPv4Stack=true '
++ acquire_kerberos_tgt hdfs.keytab
++ '[' -z hdfs.keytab ']'
++ '[' -n '' ']'
++ '[' MAPREDUCE = YARN ']'
++ '[' YARN = YARN ']'
++ MR_CONF_DIR=/var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf
++ HADOOP_HOME=/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop
++ echo 'using /opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-mapreduce as CDH_MR2_HOME'
++ perl -pi -e 's#{{CDH_MR2_HOME}}#/opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop-mapreduce#g' /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf/core-site.xml /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf/hadoop-env.sh /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf/hdfs-site.xml /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf/log4j.properties /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf/mapred-site.xml /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf/ssl-client.xml /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf/topology.map /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf/topology.py /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf/yarn-site.xml
+++ echo /usr/share/cmf/lib/dr/distcp_acllib-5.9.2.jar
++ ACLLIB_CLASSPATH=/usr/share/cmf/lib/dr/distcp_acllib-5.9.2.jar
++ export HADOOP_CLASSPATH=/usr/share/cmf/lib/dr/distcp_acllib-5.9.2.jar:/usr/share/cmf/lib/plugins/tt-instrumentation-5.9.2.jar:/usr/share/cmf/lib/plugins/event-publish-5.9.2-shaded.jar
++ HADOOP_CLASSPATH=/usr/share/cmf/lib/dr/distcp_acllib-5.9.2.jar:/usr/share/cmf/lib/plugins/tt-instrumentation-5.9.2.jar:/usr/share/cmf/lib/plugins/event-publish-5.9.2-shaded.jar
++ exec /opt/cloudera/parcels/CDH-5.9.2-1.cdh5.9.2.p0.3/lib/hadoop/bin/hadoop --config /var/run/cloudera-scm-agent/process/672-hdfs-NAMENODE-distcp-a2a3db07/yarn-conf jar /usr/share/cmf/lib/dr/distcp-5.9.2.jar -libjars /usr/share/cmf/lib/dr/distcp_acllib-5.9.2.jar -bandwidth 100 -i -m 5 -prbugp -update -log /user/hdfs/.cm/distcp/2017-05-03_2116 -sourceconf source-client-conf -useSnapshots -ignoreSnapshotFailures -diff distcp-5-695677851 -strategy dynamic -filters exclusion-filter.list -scheduleId 5 /user/NithK45/0_replication_source_NithK45 /user/idiotek/0_replication_target_NithK45
+17/05/03 15:45:42 INFO distcp.DistCp: JVM config: max memory = 910336 KB, total memory = 230400 KB, available processors = 4
+17/05/03 15:45:42 INFO util.VersionChecker: Inferred CDH version >= 52
+17/05/03 15:45:42 INFO distcp.DistCp: Input Options: DistCpOptions{atomicCommit=false, syncFolder=true, deleteMissing=false, ignoreFailures=true, maxMaps=5, sslConfigurationFile='null', copyStrategy='dynamic', sourceFileListing=null, sourcePaths=[/user/NithK45/0_replication_source_NithK45], targetPath=/user/idiotek/0_replication_target_NithK45, dryRun=false, dryRunReadSize=512, dryRunMaxFiles=1024, logPath=/user/hdfs/.cm/distcp/2017-05-03_2116, proxyUser=null, overwrite=false, skipCRC=false, blocking=true, mapBandwidth=100, preserveStatus=[REPLICATION, BLOCKSIZE, USER, GROUP, PERMISSION], atomicWorkPath=null, sourceConf=source-client-conf, useWebHdfsForSource=false, sourcePrincipal=null, sourceTicketCache=null, rebase=false, useSnapshots=true, ignoreSnapshotFailures=true, skipTrash=false, preserveRawXattrs=false, filtersFile='exclusion-filter.list', skipAclErr=false, useDiff=true, append=false, skipOwnershipCheck=false, skipDefaultJobStagingDir=false, cloudUsage=null}
+17/05/03 15:45:42 INFO util.FsCache: Created file system client instance for key : [source, hdfs, ip-172-31-38-19.us-west-2.compute.internal:8020, hdfs (auth:SIMPLE), null, null, null]
+17/05/03 15:45:42 INFO util.FsCache: Created file system client instance for key : [target, hdfs, nameservice1, hdfs (auth:SIMPLE), null, 512, null]
+17/05/03 15:45:42 INFO distcp.DistCp: Meta folder location: hdfs://nameservice1/user/hdfs/.cm/distcp-staging/3426239206935852004
+17/05/03 15:45:42 INFO distcp.DistCp: DistCp job log path: hdfs://nameservice1/user/hdfs/.cm/distcp/2017-05-03_2116
+17/05/03 15:45:43 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-2-85/172.31.2.85:8032
+17/05/03 15:45:43 INFO distcp.DistCp: Replicate ACL: false
+17/05/03 15:45:43 INFO distcp.DistCp: Replicate XAttr: false
+17/05/03 15:45:43 INFO distcp.DistCp: append copy is disabled
+17/05/03 15:45:43 INFO distcp.DistCp: Diff is not enabled, falling back to regular distcp
+17/05/03 15:45:43 INFO distcp.SimpleCopyListing: initialized with rebase=false, enableThreads=true, enableTiming=false, fetchThreads=20, fetchMaxQueueSize=10000
+17/05/03 15:45:44 INFO distcp.SimpleCopyListing: Create 20 thread ThreadPoolExecutor ...
+17/05/03 15:45:44 INFO distcp.SimpleCopyListing: Source filesystem type: org.apache.hadoop.hdfs.DistributedFileSystem
+17/05/03 15:45:44 INFO distcp.SimpleCopyListing: shutdown thread pool executor.
+17/05/03 15:45:44 INFO distcp.SimpleCopyListing: Total paths located: 4
+17/05/03 15:45:44 INFO distcp.SimpleCopyListing: Total files located: 3
+17/05/03 15:45:44 INFO distcp.SimpleCopyListing: Total bytes to copy: 580000000
+17/05/03 15:45:44 INFO distcp.SimpleCopyListing: Total time for copy listing: (seconds) 0.403
+17/05/03 15:45:44 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-2-85/172.31.2.85:8032
+17/05/03 15:45:45 INFO lib.DynamicInputFormat: DynamicInputFormat: Getting splits for job:job_1493776969938_0010
+17/05/03 15:45:45 INFO lib.DynamicInputFormat: Number of dynamic-chunk-files created: 4
+17/05/03 15:45:45 INFO mapreduce.JobSubmitter: number of splits:4
+17/05/03 15:45:45 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493776969938_0010
+17/05/03 15:45:45 INFO impl.YarnClientImpl: Submitted application application_1493776969938_0010
+17/05/03 15:45:45 INFO mapreduce.Job: The url to track the job: http://ip-172-31-2-85:8088/proxy/application_1493776969938_0010/
+17/05/03 15:45:45 INFO distcp.DistCp: DistCp job-id: job_1493776969938_0010
+17/05/03 15:45:46 INFO distcp.DistCp: map 0% reduce 0%
+17/05/03 15:45:59 INFO distcp.DistCp: map 50% reduce 0%
+17/05/03 15:46:02 INFO distcp.DistCp: map 58% reduce 0%
