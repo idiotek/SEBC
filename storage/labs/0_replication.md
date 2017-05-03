@@ -63,8 +63,12 @@ hadoop jar hadoop-examples.jar teragen -D mapreduce.job.maps=1 5242880 /user/idi
 ```
 
 * Copy your partner's file to your target directory, one use distcp (NithK45), one use BDR (idiotek)
+```
 Please refer to 0_replication_config.png for HDFS Replication configuration
+```
 
 * Browse the results
+```
 Unable to complete transfer as map reduce job is stuck at 58%
 Please refer to 0_replicaton_stderr.log for log details
+```
