@@ -2,13 +2,15 @@
 <code>AWS</code>
 
 * List the nodes you are using by IP address and name
-Name | Private IP Address
----- | ------------------
+```
+Name | IP
+---- | --
 ip-172-31-28-115 | 172.31.28.115
 ip-172-31-19-216 | 172.31.19.216
 ip-172-31-22-166 | 172.31.22.166
 ip-172-31-26-40 | 172.31.26.40
 ip-172-31-23-151 | 172.31.23.151
+```
 
 * List the Linux release you are using
 ```
