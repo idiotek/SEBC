@@ -45,19 +45,19 @@ repolist: 7,022
 
 * Add users and groups
 ```
-groupadd -g 2010 merengues
-groupadd -g 2016 barca
-useradd -u 2010 -g 2010 neymar
-useradd -u 2016 -g 2016 ronaldo
-passwd neymar
-passwd ronaldo
+groupadd -g 2300 aussies
+groupadd -g 2900 kiwis
+useradd -u 2300 -g 2300 cate
+useradd -u 2900 -g 2900 jemaine
+passwd cate
+passwd jemaine
 ```
 
 * List the /etc/passwd and /etc/group
 ```
-cat /etc/passwd | egrep -E "neymar|ronaldo"; cat /etc/group | egrep -E "barca|merengues"
-neymar:x:2010:2010::/home/neymar:/bin/bash
-ronaldo:x:2016:2016::/home/ronaldo:/bin/bash
-merengues:x:2010:
-barca:x:2016:
+cat /etc/passwd | egrep -E "cate|jemaine"; cat /etc/group | egrep -E "aussies|kiwis"
+cate:x:2300:2300::/home/cate:/bin/bash
+jemaine:x:2900:2900::/home/jemaine:/bin/bash
+aussies:x:2300:
+kiwis:x:2900:
 ```
