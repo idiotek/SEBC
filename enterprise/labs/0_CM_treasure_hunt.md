@@ -12,6 +12,8 @@ Under Administration -> Settings -> Kerberos Category -> Kerberos Security Realm
 ```
 ZooKeeper - ZooKeeper -> Configuration -> Main Category -> Enable Kerberos Authentication
 ```
+[All of them do]
+
 
 * How do you upgrade the CM agents?
 ```
