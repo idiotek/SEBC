@@ -19,6 +19,8 @@ Reserved block count:     524185
 * Disable transparent hugepage support
 <code>grep -i HugePages_Total /proc/meminfo</code>
 ```
+[mfernest: Not quite I had in mind. This shows the facility is not in use. You want to show the setting that proves it's disabled]
+
 # grep -i HugePages_Total /proc/meminfo
 HugePages_Total:       0
 ```
